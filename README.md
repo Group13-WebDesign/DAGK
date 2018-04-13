@@ -1,2 +1,1 @@
-# DAGK
-Đồ án giữa kỳ - PTUDW
+# Do an giua ky
