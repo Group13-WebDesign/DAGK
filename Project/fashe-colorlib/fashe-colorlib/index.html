@@ -125,9 +125,15 @@
             <div class="btn-show-menu">
                 <!-- Header Icon mobile -->
                 <div class="header-icons-mobile">
-                    <a href="#" class="header-wrapicon1 dis-block">
-                        <img src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
-                    </a>
+                    <div class="dropdown">
+                        <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+                            <img src="images/icons/icon-header-01.png">
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="login.html">Login</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="register.html">Register</a></li>
+                        </ul>
+                    </div>
 
                     <span class="linedivide2"></span>
 
@@ -191,431 +197,269 @@
         </div>
     </header>
 
-    <!-- Slide1 *10 sản phẩm mới nhất* -->
+            <!-- Slide1 *10 sản phẩm mới nhất* -->
     <section class="slide1">
         <div class="wrap-slick1">
 
-            <!-- Header -->
-            <header class="header1">
-                <!-- Header desktop -->
-                <div class="container-menu-header">
-                    <div class="wrap_header">
-                        <!-- Logo -->
-                        <a href="index.html" class="logo">
-                            <img src="images/icons/logo.png" alt="IMG-LOGO">
-                        </a>
+            <div class="slick1">
+                <div class="item-slick1 item1-slick1" style="background-image: url(images/master-slide-01.jpg);">
+                    <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                        <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
+                            New arrivals
+                        </h2>
 
-                        <!-- Menu -->
-                        <div class="wrap_menu">
-                            <nav class="menu">
-                                <ul class="main_menu">
-                                    <li>
-                                        <a href="index.html">Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="product.html">Shop</a>
-                                    </li>
-                                    <li>
-                                        <a href="product.html">Sale</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="cart.html">Features</a>
-                                    </li>
-
-                                </ul>
-                            </nav>
-                        </div>
-
-                        <!-- Header Icon -->
-                        <div class="header-icons">
-                            <div class="dropdown">
-                                <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
-                                    <img src="images/icons/icon-header-01.png">
-                                </button>
-                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="login.html">Login</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="register.html">Register</a></li>
-                                </ul>
-                            </div>
-
-
-
-                            <span class="linedivide1"></span>
-
-                            <div class="header-wrapicon2">
-                                <img src="images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
-                                <span class="header-icons-noti">0</span>
-
-                                <!-- Header cart noti -->
-                                <div class="header-cart header-dropdown">
-                                    <ul class="header-cart-wrapitem"></ul>
-                                    <div class="header-cart-buttons">
-                                        <div class="header-cart-wrapbtn">
-                                            <!-- Button -->
-                                            <a href="cart.html" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
-                                                View Cart
-                                            </a>
-                                        </div>
-
-                                        <div class="header-cart-wrapbtn">
-                                            <!-- Button -->
-                                            <a href="#" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
-                                                Check Out
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Header Mobile -->
-                <div class="wrap_header_mobile">
-                    <!-- Logo moblie -->
-                    <a href="index.html" class="logo-mobile">
-                        <img src="images/icons/logo.png" alt="IMG-LOGO">
-                    </a>
-
-                    <!-- Button show menu -->
-                    <div class="btn-show-menu">
-                        <!-- Header Icon mobile -->
-                        <div class="header-icons-mobile">
-                            <div class="dropdown">
-                                <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
-                                    <img src="images/icons/icon-header-01.png">
-                                </button>
-                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="login.html">Login</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="register.html">Register</a></li>
-                                </ul>
-                            </div>
-                            <span class="linedivide2"></span>
-
-                            <div class="header-wrapicon2">
-                                <img src="images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
-                                <span class="header-icons-noti">0</span>
-
-                                <!-- Header cart noti -->
-                                <div class="header-cart header-dropdown">
-                                    <ul class="header-cart-wrapitem"></ul>
-
-
-                                    <div class="header-cart-buttons">
-                                        <div class="header-cart-wrapbtn">
-                                            <!-- Button -->
-                                            <a href="cart.html" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
-                                                View Cart
-                                            </a>
-                                        </div>
-
-                                        <div class="header-cart-wrapbtn">
-                                            <!-- Button -->
-                                            <a href="#" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
-                                                Check Out
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
-                            <span class="hamburger-box">
-                                <span class="hamburger-inner"></span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Menu Mobile -->
-                <div class="wrap-side-menu">
-                    <nav class="side-menu">
-                        <ul class="main-menu">
-                            <li class="item-menu-mobile">
-                                <a href="index.html">Home</a>
-                            </li>
-
-                            <li class="item-menu-mobile">
-                                <a href="product.html">Shop</a>
-                            </li>
-
-                            <li class="item-menu-mobile">
-                                <a href="product.html">Sale</a>
-                            </li>
-
-                            <li class="item-menu-mobile">
-                                <a href="cart.html">Features</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
-
-            <!-- Slide1 *10 sản phẩm mới nhất* -->
-            <section class="slide1">
-                <div class="wrap-slick1">
-
-                    <div class="slick1">
-                        <div class="item-slick1 item1-slick1" style="background-image: url(images/master-slide-01.jpg);">
-                            <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-                                <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
-                                    New arrivals
-                                </h2>
-
-                                <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
-                                    <!-- Button -->
-                                    <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-                                        Shop Now
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item-slick1 item2-slick1" style="background-image: url(images/master-slide-02.jpg);">
-                            <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-                                <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="lightSpeedIn">
-                                    New arrivals
-                                </h2>
-
-                                <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="slideInUp">
-                                    <!-- Button -->
-                                    <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-                                        Shop Now
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item-slick1 item3-slick1" style="background-image: url(images/master-slide-03.jpg);">
-                            <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-                                <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
-                                    New arrivals
-                                </h2>
-
-                                <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
-                                    <!-- Button -->
-                                    <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-                                        Shop Now
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="item-slick1 item4-slick1" style="background-image: url(images/master-slide-04.jpg);">
-                            <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-                                <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
-                                    New arrivals
-                                </h2>
-
-                                <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
-                                    <!-- Button -->
-                                    <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-                                        Shop Now
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item-slick1 item5-slick1" style="background-image: url(images/master-slide-05.jpg);">
-                            <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-                                <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
-                                    New arrivals
-                                </h2>
-
-                                <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
-                                    <!-- Button -->
-                                    <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-                                        Shop Now
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item-slick1 item6-slick1" style="background-image: url(images/master-slide-06.jpg);">
-                            <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-                                <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
-                                    New arrivals
-                                </h2>
-
-                                <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
-                                    <!-- Button -->
-                                    <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-                                        Shop Now
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item-slick1 item7-slick1" style="background-image: url(images/master-slide-07.jpg);">
-                            <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-                                <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
-                                    New arrivals
-                                </h2>
-
-                                <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
-                                    <!-- Button -->
-                                    <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-                                        Shop Now
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item-slick1 item8-slick1" style="background-image: url(images/master-slide-08.jpg);">
-                            <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-                                <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
-                                    New arrivals
-                                </h2>
-
-                                <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
-                                    <!-- Button -->
-                                    <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-                                        Shop Now
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item-slick1 item9-slick1" style="background-image: url(images/master-slide-09.jpg);">
-                            <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-                                <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
-                                    New arrivals
-                                </h2>
-
-                                <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
-                                    <!-- Button -->
-                                    <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-                                        Shop Now
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item-slick1 item10-slick1" style="background-image: url(images/master-slide-10.jpg);">
-                            <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-                                <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
-                                    New arrivals
-                                </h2>
-
-                                <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
-                                    <!-- Button -->
-                                    <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-                                        Shop Now
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <!-- Banner -->
-            <!-- *Sản phẩm bán chạy nhất -->
-            <section class="banner bgwhite p-t-40 p-b-40">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
-                            <!-- block1 -->
-                            <div class="block1 hov-img-zoom pos-relative m-b-30">
-                                <img src="images/banner-02.jpg" alt="IMG-BENNER">
-
-                                <!--
-                    <div class="block1-wrapbtn w-size2">
-                        <!-- Button
-                        <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                            Dresses
-                        </a>
-                    </div>
-                    -->
-                            </div>
-
-                            <!-- block1 -->
-                            <div class="block1 hov-img-zoom pos-relative m-b-30">
-                                <img src="images/banner-05.jpg" alt="IMG-BENNER">
-                                <!--
-                    <div class="block1-wrapbtn w-size2">
-                        <!-- Button
-                        <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                            Sunglasses
-                        </a>
-                    </div>
-                    -->
-                            </div>
-                        </div>
-
-                        <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
-                            <!-- block1 -->
-                            <div class="block1 hov-img-zoom pos-relative m-b-30">
-                                <img src="images/banner-03.jpg" alt="IMG-BENNER">
-                                <!--
-                    <div class="block1-wrapbtn w-size2">
-                        <!-- Button
-                        <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                            Watches
-                        </a>
-                    </div>
-                    -->
-                            </div>
-
-                            <!-- block1 -->
-                            <div class="block1 hov-img-zoom pos-relative m-b-30">
-                                <img src="images/banner-07.jpg" alt="IMG-BENNER">
-                                <!--
-                    <div class="block1-wrapbtn w-size2">
-                        <!-- Button
-                        <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                            Footerwear
-                        </a>
-                    </div>
-                     -->
-                            </div>
-                        </div>
-
-                        <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
-                            <!-- block1 -->
-                            <div class="block1 hov-img-zoom pos-relative m-b-30">
-                                <img src="images/banner-04.jpg" alt="IMG-BENNER">
-                                <!--
-                    <div class="block1-wrapbtn w-size2">
-                        <!-- Button
-                        <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                            Bags
-                        </a>
-                    </div>
-                    -->
-                            </div>
-
-                            <!-- block2
-                <div class="block2 wrap-pic-w pos-relative m-b-30">
-                    <img src="images/icons/bg-01.jpg" alt="IMG">
-
-                    <div class="block2-content sizefull ab-t-l flex-col-c-m">
-                        <h4 class="m-text4 t-center w-size3 p-b-8">
-                            Sign up & get 20% off
-                        </h4>
-
-                        <p class="t-center w-size4">
-                            Be the frist to know about the latest fashion news and get exclu-sive offers
-                        </p>
-
-                        <div class="w-size2 p-t-25">
-                            <!-- Button
-                            <a href="#" class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4">
-                                Sign Up
+                        <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
+                            <!-- Button -->
+                            <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                                Shop Now
                             </a>
                         </div>
                     </div>
                 </div>
-                -->
 
+                <div class="item-slick1 item2-slick1" style="background-image: url(images/master-slide-02.jpg);">
+                    <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                        <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="lightSpeedIn">
+                            New arrivals
+                        </h2>
+
+                        <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="slideInUp">
+                            <!-- Button -->
+                            <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                                Shop Now
+                            </a>
                         </div>
                     </div>
                 </div>
-            </section>
+
+                <div class="item-slick1 item3-slick1" style="background-image: url(images/master-slide-03.jpg);">
+                    <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                        <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
+                            New arrivals
+                        </h2>
+
+                        <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
+                            <!-- Button -->
+                            <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                                Shop Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="item-slick1 item4-slick1" style="background-image: url(images/master-slide-04.jpg);">
+                    <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                        <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
+                            New arrivals
+                        </h2>
+
+                        <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
+                            <!-- Button -->
+                            <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                                Shop Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-slick1 item5-slick1" style="background-image: url(images/master-slide-05.jpg);">
+                    <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                        <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
+                            New arrivals
+                        </h2>
+
+                        <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
+                            <!-- Button -->
+                            <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                                Shop Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-slick1 item6-slick1" style="background-image: url(images/master-slide-06.jpg);">
+                    <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                        <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
+                            New arrivals
+                        </h2>
+
+                        <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
+                            <!-- Button -->
+                            <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                                Shop Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-slick1 item7-slick1" style="background-image: url(images/master-slide-07.jpg);">
+                    <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                        <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
+                            New arrivals
+                        </h2>
+
+                        <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
+                            <!-- Button -->
+                            <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                                Shop Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-slick1 item8-slick1" style="background-image: url(images/master-slide-08.jpg);">
+                    <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                        <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
+                            New arrivals
+                        </h2>
+
+                        <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
+                            <!-- Button -->
+                            <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                                Shop Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-slick1 item9-slick1" style="background-image: url(images/master-slide-09.jpg);">
+                    <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                        <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
+                            New arrivals
+                        </h2>
+
+                        <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
+                            <!-- Button -->
+                            <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                                Shop Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-slick1 item10-slick1" style="background-image: url(images/master-slide-10.jpg);">
+                    <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+                        <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
+                            New arrivals
+                        </h2>
+
+                        <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
+                            <!-- Button -->
+                            <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                                Shop Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+            <!-- Banner -->
+            <!-- *Sản phẩm bán chạy nhất -->
+    <section class="banner bgwhite p-t-40 p-b-40">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto" >
+                    <!-- block1 -->
+                    <div class="block1 hov-img-zoom pos-relative m-b-30" style="border-style: groove">
+                        <img src="images/banner-02.jpg" alt="IMG-BENNER">
+
+                        <!--
+            <div class="block1-wrapbtn w-size2">
+                <!-Button
+                <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+                    Dresses
+                </a>
+            </div>
+            -->
+                    </div>
+
+                    <!-- block1 -->
+                    <div class="block1 hov-img-zoom pos-relative m-b-30" style="border-style: groove">
+                        <img src="images/banner-05.jpg" alt="IMG-BENNER">
+                        <!--
+            <div class="block1-wrapbtn w-size2">
+                <!- Button
+                <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+                    Sunglasses
+                </a>
+            </div>
+            -->
+                    </div>
+                </div>
+
+                <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto" >
+                    <!-- block1 -->
+                    <div class="block1 hov-img-zoom pos-relative m-b-30" style="border-style: groove">
+                        <img src="images/banner-03.jpg" alt="IMG-BENNER">
+                        <!--
+            <div class="block1-wrapbtn w-size2">
+                <!- Button
+                <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+                    Watches
+                </a>
+            </div>
+            -->
+                    </div>
+
+                    <!-- block1 -->
+                    <div class="block1 hov-img-zoom pos-relative m-b-30" style="border-style: groove">
+                        <img src="images/banner-07.jpg" alt="IMG-BENNER">
+                        <!--
+            <div class="block1-wrapbtn w-size2">
+                <!- Button
+                <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+                    Footerwear
+                </a>
+            </div>
+             -->
+                    </div>
+                </div>
+
+                <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
+                    <!-- block1 -->
+                    <div class="block1 hov-img-zoom pos-relative m-b-30" style="border-style: groove">
+                        <img src="images/banner-04.jpg" alt="IMG-BENNER">
+                        <!--
+            <div class="block1-wrapbtn w-size2">
+                <!- Button
+                <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+                    Bags
+                </a>
+            </div>
+            -->
+                    </div>
+
+                    <!-- block2
+        <div class="block2 wrap-pic-w pos-relative m-b-30">
+            <img src="images/icons/bg-01.jpg" alt="IMG">
+
+            <div class="block2-content sizefull ab-t-l flex-col-c-m">
+                <h4 class="m-text4 t-center w-size3 p-b-8">
+                    Sign up & get 20% off
+                </h4>
+
+                <p class="t-center w-size4">
+                    Be the frist to know about the latest fashion news and get exclu-sive offers
+                </p>
+
+                <div class="w-size2 p-t-25">
+                    <!- Button
+                    <a href="#" class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4">
+                        Sign Up
+                    </a>
+                </div>
+            </div>
+        </div>
+        -->
+
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
