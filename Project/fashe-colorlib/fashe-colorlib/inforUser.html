@@ -1,55 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Register</title>
+	<title>Information</title>
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/updateUser.css">
 </head>
 <body>
 	<div class="container wrapper">
-	    <form class="form-signup" name="register" method="post" action= "#">       
-	      	<h2 class="text-center">Sign up</h2>
-			<div class="form-group">
-    			<label name="fname">First name</label>
-   				<input type="text" class="form-control" name="fname" placeholder="Input first name">
-  			</div>
-			<div class="form-group">
-    			<label name="lname">Last name</label>
-   				<input type="text" class="form-control" name="lname" placeholder="Input last name">
-  			</div>
-			<div class="form-group ">
-				<label name= "gender"> Gender </label>
-    		        <select class="form-control" id="gender">
- 						<option>Female</option>
-  						<option>Male</option>
-  						<option>Others</option>
-					</select>
+	    <form class="form-signup" name="update" method="post" action= "#">       
+	      	<h2 class="text-center">Persional information </h2> <br>
+	      	 <div class="form-group row">
+			    <label class="control-label col-sm-4" for="fname">First name:</label>
+			    <div class="col-sm-8" style="font-style: italic">
+			    	<p class="form-control-static">ABC</p>
+			    </div>
+		 	</div>
+		 	<div class="form-group row">
+			    <label class="control-label col-sm-4" for="lname">Last name:</label>
+			    <div class="col-sm-8" style="font-style: italic" >
+			      <p class="form-control-static">Nguyễn </p>
+			    </div>
 			</div>
-			<div class="form-group">
-			   		<label name="date"> Date of Birth</label>
-					<input type="text" class="form-control" name="date" placeholder="dd/mm/yy">            
+			<div class="form-group row">
+			    <label class="control-label col-sm-4" for="gender">Gender:</label>
+			    <div class="col-sm-8" style="font-style: italic">
+			      <p class="form-control-static">Male</p>
+			    </div>
 			</div>
-			
-  			<div class="form-group">
-    			<label name="phone">Phone number</label>
-   				<input type="text" class="form-control" name="phone" placeholder="Input phone number">
-  			</div>
-  			<div class="form-group">
-    			<label name="email">Email</label>
-   				<input type="text" class="form-control" name="email" placeholder="Input email address">
-  			</div>
-			<div class="form-group">
-    			<label name="password">Password</label>
-   				<input type="password" class="form-control" name="password" placeholder="Input password">
-  			</div>
-	       
+			<div class="form-group row">
+			    <label class="control-label col-sm-4" for="date">Date of Birth:</label>
+			    <div class="col-sm-8" style="font-style: italic">
+			      <p class="form-control-static">10/11/2000</p>
+			    </div>
+			</div>
+			<div class="form-group row">
+			    <label class="control-label col-sm-4" for="phone">Phone number:</label>
+			    <div class="col-sm-8" style="font-style: italic">
+			      <p class="form-control-static">0906 000 123</p>
+			    </div>
+			</div>
+			<div class="form-group row">
+			    <label class="control-label col-sm-4" for="date">Email:</label>
+			    <div class="col-sm-8" style="font-style: italic">
+			      <p class="form-control-static">ABC20@gmail.com</p>
+			    </div>
+			</div>
 	      	<div class="form-group row">
 	      		<div class="col-md-6">
-	      			<button class="btn btn-primary btn-block" type="submit" onclick="return validateForm()" >Register</button>  
-	      		</div>
+	      			<a href="index_user.html" class="btn btn-primary btn-block">Back</a> 
+	      		</div>  
 	      		<div class="col-md-6">
-	      			<button class="btn btn-primary btn-block" type="cancel">Cancel</button>  
-	      		</div>      		
+	      			<a href="updateUser.html" class="btn btn-primary btn-block" type="edit">Edit</a> 
+	      		</div>    		
 	      	</div>   	 
 	    </form>
 	</div>
@@ -90,7 +92,6 @@
 			var email= document.register.email.value;
 			var aCong= email.indexOf("@");
 			var dauCham = email.lastIndexOf(".");
-
 			if (email == "") {
 				alert("Vui lòng nhập Email");
 				document.register.email.focus( );
@@ -101,7 +102,6 @@
 				return false;
 			}
 		
-
 			//kiem tra password
 			if ( document.register.password.value=="")
 			{
@@ -109,7 +109,6 @@
 				document.register.password.focus( );
 				return false;
 			}
-
 			// nếu đúng hết, trả về true
 			return true;
 		}

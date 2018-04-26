@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Product</title>
@@ -43,7 +43,7 @@
 
 			<div class="wrap_header">
 				<!-- Logo -->
-				<a href="index.html" class="logo">
+				<a href="index_user.html" class="logo">
 					<img src="images/icons/logo.png" alt="IMG-LOGO">
 				</a>
 
@@ -52,19 +52,19 @@
 					<nav class="menu">
 						<ul class="main_menu">
 							<li>
-								<a href="index.html">Home</a>
+								<a href="index_user.html">Home</a>
 							</li>
 
 							<li>
-								<a href="product.html">Shop</a>
+								<a href="product_user.html">Shop</a>
 							</li>
 
 							<li class="sale-noti">
-								<a href="product.html">Sale</a>
+								<a href="product_user.html">Sale</a>
 							</li>
 
 							<li>
-								<a href="cart.html">Features</a>
+								<a href="cart_user.html">Features</a>
 							</li>
 						</ul>
 					</nav>
@@ -73,13 +73,25 @@
 				<!-- Header Icon -->
 				<div class="header-icons">
 					<div class="dropdown">
-						<button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
-  							<img src="images/icons/icon-header-01.png">
-						</button>
-						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-   							<li role="presentation"><a role="menuitem" tabindex="-1" href="login.html">Login</a></li>
-    						<li role="presentation"><a role="menuitem" tabindex="-1" href="register.html">Register</a></li>
-    					</ul>
+						<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+	    					<img src="images/icons/icon-header-01.png">
+	    				</button>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+							 <li role="presentation">
+							 	<a role="menuitem" tabindex="-1" href="inforUser.html" >
+							     <p>Nguyễn ABC </p>
+								</a>
+							</li>
+							<span class="linedivide1"></span>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" href="#">
+									Notification
+								</a>
+							</li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="historyOrder.html">History Order</a></li>
+							<span class="linedivide1"></span>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Setting</a></li>
+						</ul>
 					</div>
 					
 
@@ -87,18 +99,68 @@
 
 					<div class="header-wrapicon2">
 						<img src="images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
-						<span class="header-icons-noti">0</span>
+						<span class="header-icons-noti">3</span>
 
 						<!-- Header cart noti -->
 						<div class="header-cart header-dropdown">
 							<ul class="header-cart-wrapitem">
+								<li class="header-cart-item">
+									<div class="header-cart-item-img">
+										<img src="images/item-cart-01.jpg" alt="IMG">
+									</div>
 
+									<div class="header-cart-item-txt">
+										<a href="product-detail_user.html" class="header-cart-item-name">
+											Sony Alpha a7R III Mirrorless Digital Camera 
+										</a>
+
+										<span class="header-cart-item-info">
+											1 x $3,198.00
+										</span>
+									</div>
+								</li>
+
+								<li class="header-cart-item">
+									<div class="header-cart-item-img">
+										<img src="images/item-cart-02.jpg" alt="IMG">
+									</div>
+
+									<div class="header-cart-item-txt">
+										<a href="product-detail_user.html" class="header-cart-item-name">
+											Nikon D850 DSLR Camera
+										</a>
+
+										<span class="header-cart-item-info">
+											1 x $3,296.95
+										</span>
+									</div>
+								</li>
+
+								<li class="header-cart-item">
+									<div class="header-cart-item-img">
+										<img src="images/item-cart-03.jpg" alt="IMG">
+									</div>
+
+									<div class="header-cart-item-txt">
+										<a href="product-detail_user.html" class="header-cart-item-name">
+											Canon EOS 80D DSLR Camera
+										</a>
+
+										<span class="header-cart-item-info">
+											1 x $999.00
+										</span>
+									</div>
+								</li>
 							</ul>
+
+							<div class="header-cart-total">
+								Total: $7,493.95
+							</div>
 
 							<div class="header-cart-buttons">
 								<div class="header-cart-wrapbtn">
 									<!-- Button -->
-									<a href="cart.html" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+									<a href="cart_user.html" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
 										View Cart
 									</a>
 								</div>
@@ -111,6 +173,7 @@
 								</div>
 							</div>
 						</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -119,7 +182,7 @@
 		<!-- Header Mobile -->
 		<div class="wrap_header_mobile">
 			<!-- Logo moblie -->
-			<a href="index.html" class="logo-mobile">
+			<a href="index_user.html" class="logo-mobile">
 				<img src="images/icons/logo.png" alt="IMG-LOGO">
 			</a>
 
@@ -127,32 +190,88 @@
 			<div class="btn-show-menu">
 				<!-- Header Icon mobile -->
 				<div class="header-icons-mobile">
-					<div class="dropdown">
-						<button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
-  							<img src="images/icons/icon-header-01.png">
-						</button>
-						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-   							<li role="presentation"><a role="menuitem" tabindex="-1" href="login.html">Login</a></li>
-    						<li role="presentation"><a role="menuitem" tabindex="-1" href="register.html">Register</a></li>
-    					</ul>
-					</div>
+					<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+						<img src="images/icons/icon-header-01.png">
+					</button>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+						 <li role="presentation">
+						 	<a style="font-size:20px bold" role="menuitem" tabindex="-1" href="inforUser.html" >
+						     	<p>Nguyễn ABC </p>
+							</a>
+						</li>
+						<span class="linedivide1"></span>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Notification</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="historyOrder.html">History Order</a></li>
+						<span class="linedivide1"></span>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Setting</a></li>
+					</ul>
 
 					<span class="linedivide2"></span>
 
 					<div class="header-wrapicon2">
 						<img src="images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
-						<span class="header-icons-noti">0</span>
+						<span class="header-icons-noti">3</span>
 
-						<!-- Header cart noti -->
+					<!-- Header cart noti -->
 						<div class="header-cart header-dropdown">
 							<ul class="header-cart-wrapitem">
-								
+								<li class="header-cart-item">
+									<div class="header-cart-item-img">
+										<img src="images/item-cart-01.jpg" alt="IMG">
+									</div>
+
+									<div class="header-cart-item-txt">
+										<a href="product-detail_user.html" class="header-cart-item-name">
+											Sony Alpha a7R III Mirrorless Digital Camera 
+										</a>
+
+										<span class="header-cart-item-info">
+											1 x $3,198.00
+										</span>
+									</div>
+								</li>
+
+								<li class="header-cart-item">
+									<div class="header-cart-item-img">
+										<img src="images/item-cart-02.jpg" alt="IMG">
+									</div>
+
+									<div class="header-cart-item-txt">
+										<a href="product-detail_user.html" class="header-cart-item-name">
+											Nikon D850 DSLR Camera
+										</a>
+
+										<span class="header-cart-item-info">
+											1 x $3,296.95
+										</span>
+									</div>
+								</li>
+
+								<li class="header-cart-item">
+									<div class="header-cart-item-img">
+										<img src="images/item-cart-03.jpg" alt="IMG">
+									</div>
+
+									<div class="header-cart-item-txt">
+										<a href="product-detail_user.html" class="header-cart-item-name">
+											Canon EOS 80D DSLR Camera
+										</a>
+
+										<span class="header-cart-item-info">
+											1 x $999.00
+										</span>
+									</div>
+								</li>
 							</ul>
+
+							<div class="header-cart-total">
+								Total: $7,493.95
+							</div>
 
 							<div class="header-cart-buttons">
 								<div class="header-cart-wrapbtn">
 									<!-- Button -->
-									<a href="cart.html" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+									<a href="cart_user.html" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
 										View Cart
 									</a>
 								</div>
@@ -181,19 +300,19 @@
 			<nav class="side-menu">
 				<ul class="main-menu">
 					<li class="item-menu-mobile">
-						<a href="index.html">Home</a>
+						<a href="index_user.html">Home</a>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="product.html">Shop</a>
+						<a href="product_user.html">Shop</a>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="product.html">Sale</a>
+						<a href="product_user.html">Sale</a>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="cart.html">Features</a>
+						<a href="cart_user.html">Features</a>
 					</li>
 				</ul>
 			</nav>
@@ -350,7 +469,7 @@
 								</select>
 							</div>
 
-							<div class="rs2-select2 bo4 of-  hidden w-size12 m-t-5 m-b-5 m-r-10">
+							<div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10">
 								<select class="selection-2" name="sorting">
 									<option>Price</option>
 									<option>$0.00 - $5000</option>
@@ -394,12 +513,12 @@
 								</div>
 
 								<div class="block2-txt p-t-20">
-									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-										Herschel supply co 25l
+									<a href="product-detail_user.html" class="block2-name dis-block s-text3 p-b-5">	
+										Canon EOS M50 Mirrorless Digital Camera with 15-45mm Lens (White)
 									</a>
 
 									<span class="block2-price m-text6 p-r-5">
-										$75.00
+										$899.00
 									</span>
 								</div>
 							</div>
@@ -427,12 +546,12 @@
 								</div>
 
 								<div class="block2-txt p-t-20">
-									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-										Denim jacket blue
+									<a href="product-detail_user.html" class="block2-name dis-block s-text3 p-b-5">
+										Leica M10 Digital Rangefinder Camera (Silver)
 									</a>
 
 									<span class="block2-price m-text6 p-r-5">
-										$92.50
+										$6,895.00
 									</span>
 								</div>
 							</div>
@@ -460,12 +579,12 @@
 								</div>
 
 								<div class="block2-txt p-t-20">
-									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-										Coach slim easton black
+									<a href="product-detail_user.html" class="block2-name dis-block s-text3 p-b-5">
+										Fujifilm X-A5 Mirrorless Digital Camera with 15-45mm Lens (Silver)
 									</a>
 
 									<span class="block2-price m-text6 p-r-5">
-										$165.90
+										$599.00
 									</span>
 								</div>
 							</div>
@@ -493,17 +612,14 @@
 								</div>
 
 								<div class="block2-txt p-t-20">
-									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-										Frayed denim shorts
+									<a href="product-detail_user.html" class="block2-name dis-block s-text3 p-b-5">
+										Fujifilm X-A5 Mirrorless Digital Camera with 15-45mm Lens (Pink)
 									</a>
 
 									<span class="block2-oldprice m-text7 p-r-5">
-										$29.50
+										$599.00
 									</span>
 
-									<span class="block2-newprice m-text8 p-r-5">
-										$15.90
-									</span>
 								</div>
 							</div>
 						</div>
@@ -530,12 +646,12 @@
 								</div>
 
 								<div class="block2-txt p-t-20">
-									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-										Herschel supply co 25l
+									<a href="product-detail_user.html" class="block2-name dis-block s-text3 p-b-5">
+										Sony Alpha a5100 Mirrorless Digital Camera with 16-50mm Lens (White)
 									</a>
 
-									<span class="block2-price m-text6 p-r-5">
-										$75.00
+									<span class="block2-price m-text8 p-r-5">
+										$548.00
 									</span>
 								</div>
 							</div>
@@ -563,12 +679,12 @@
 								</div>
 
 								<div class="block2-txt p-t-20">
-									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-										Denim jacket blue
+									<a href="product-detail_user.html" class="block2-name dis-block s-text3 p-b-5">
+										Canon EOS M50 Mirrorless Digital Camera with 15-45mm Lens (White)
 									</a>
 
 									<span class="block2-price m-text6 p-r-5">
-										$92.50
+										$899.00
 									</span>
 								</div>
 							</div>
@@ -596,12 +712,12 @@
 								</div>
 
 								<div class="block2-txt p-t-20">
-									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-										Herschel supply co 25l
+									<a href="product-detail_user.html" class="block2-name dis-block s-text3 p-b-5">
+										Sony Alpha a7 III Mirrorless Digital Camera with 28-70mm Lens
 									</a>
 
 									<span class="block2-price m-text6 p-r-5">
-										$75.00
+										$2,198.00
 									</span>
 								</div>
 							</div>
@@ -629,12 +745,12 @@
 								</div>
 
 								<div class="block2-txt p-t-20">
-									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-										Denim jacket blue
+									<a href="product-detail_user.html" class="block2-name dis-block s-text3 p-b-5">
+										Fujifilm X-H1 Mirrorless Digital Camera (Body Only)
 									</a>
 
 									<span class="block2-price m-text6 p-r-5">
-										$92.50
+										$1,899.00
 									</span>
 								</div>
 							</div>
@@ -662,12 +778,12 @@
 								</div>
 
 								<div class="block2-txt p-t-20">
-									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-										Coach slim easton black
+									<a href="product-detail_user.html" class="block2-name dis-block s-text3 p-b-5">
+										Sony Alpha a7R III Mirrorless Digital Camera with 24-70mm Lens Kit
 									</a>
 
 									<span class="block2-price m-text6 p-r-5">
-										$165.90
+										$5,396.00
 									</span>
 								</div>
 							</div>
@@ -695,16 +811,16 @@
 								</div>
 
 								<div class="block2-txt p-t-20">
-									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-										Frayed denim shorts
+									<a href="product-detail_user.html" class="block2-name dis-block s-text3 p-b-5">
+										Sony Alpha a7S II Mirrorless Digital Camera with Rode VideoMic Pro Kit
 									</a>
 
 									<span class="block2-oldprice m-text7 p-r-5">
-										$29.50
+										$2,312.50
 									</span>
 
 									<span class="block2-newprice m-text8 p-r-5">
-										$15.90
+										$2,112.50
 									</span>
 								</div>
 							</div>
@@ -732,12 +848,12 @@
 								</div>
 
 								<div class="block2-txt p-t-20">
-									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-										Herschel supply co 25l
+									<a href="product-detail_user.html" class="block2-name dis-block s-text3 p-b-5">
+										Panasonic Lumix DC-GH5 Mirrorless Micro Four Thirds Digital Camera (Body Only)
 									</a>
 
 									<span class="block2-price m-text6 p-r-5">
-										$75.00
+										$1,997.99
 									</span>
 								</div>
 							</div>
@@ -765,12 +881,12 @@
 								</div>
 
 								<div class="block2-txt p-t-20">
-									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-										Denim jacket blue
+									<a href="product-detail_user.html" class="block2-name dis-block s-text3 p-b-5">
+										Canon EOS M50 Mirrorless Digital Camera with 15-45mm Lens (Black)
 									</a>
 
 									<span class="block2-price m-text6 p-r-5">
-										$92.50
+										$899.00
 									</span>
 								</div>
 							</div>
