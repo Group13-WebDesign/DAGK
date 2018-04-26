@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Update Information</title>
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/updateUser.css">
+</head>
+<body>
+	<div class="container wrapper">
+	    <form class="form-signup" name="update" method="post" action= "#">       
+	      	<h2 class="text-center">Update information </h2> <br>
+	      	<div class="form-group">
+    			<label name="fname">First name</label>
+   				<input type="text" class="form-control" name="fname" placeholder="Input first name">
+  			</div>
+			<div class="form-group">
+    			<label name="lname">Last name</label>
+   				<input type="text" class="form-control" name="lname" placeholder="Input last name">
+  			</div>
+			<div class="form-group ">
+				<label name= "gender"> Gender </label>
+    		        <select class="form-control" id="gender">
+ 						<option>Female</option>
+  						<option>Male</option>
+  						<option>Others</option>
+					</select>
+			</div>
+			<div class="form-group">
+			   		<label name="date"> Date of Birth</label>
+					<input type="text" class="form-control" name="date" placeholder="dd/mm/yy">            
+			</div>
+			
+  			<div class="form-group">
+    			<label name="phone">Phone number</label>
+   				<input type="text" class="form-control" name="phone" placeholder="Input phone number">
+  			</div>
+  			<div class="form-group">
+    			<label name="email">Email</label>
+   				<input type="text" class="form-control" name="email" placeholder="Input email address">
+  			</div>
+			<div class="form-group">
+    			<label name="password">Password</label>
+   				<input type="password" class="form-control" name="password" placeholder="Input password">
+  			</div>
+	       
+	      	<div class="form-group row">
+	      		<div class="col-md-6">
+	      			<button class="btn btn-primary btn-block" type="submit" >Update</button>  
+	      		</div>
+	      		<div class="col-md-6">
+	      			<button class="btn btn-primary btn-block" type="cancel">Cancel</button>  
+	      		</div>      		
+	      	</div>   	 
+	    </form>
+	</div>
+	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+	<script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	
+</body>
+</html>
