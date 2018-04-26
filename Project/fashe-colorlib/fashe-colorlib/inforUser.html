@@ -8,44 +8,50 @@
 <body>
 	<div class="container wrapper">
 	    <form class="form-signup" name="update" method="post" action= "#">       
-	      	<h2 class="text-center">Your information </h2>
-			<div class="form-group">
-    			<label name="fname">First name: Vy</label> 
-   				<!-- <input type="text" class="form-control" name="fname" placeholder="Input first name"> -->
-  			</div>
-			<div class="form-group">
-    			<label name="lname">Last name: Nguyễn Tường</label>
-   				<!-- <input type="text" class="form-control" name="lname" placeholder="Input last name"> -->
-  			</div>
-			<div class="form-group ">
-				<label name= "gender"> Gender: Female </label>
-    		    <!--   <select class="form-control" id="gender">
- 						<option>Female</option>
-  						<option>Male</option>
-  						<option>Others</option>
-					</select> -->
+	      	<h2 class="text-center">Persional information </h2>
+	      	 <div class="form-group row">
+			    <label class="control-label col-sm-4" for="fname">First name:</label>
+			    <div class="col-sm-8" style="font-style: italic">
+			    	<p class="form-control-static">Vy</p>
+			    </div>
+		 	</div>
+		 	<div class="form-group row">
+			    <label class="control-label col-sm-4" for="lname">Last name:</label>
+			    <div class="col-sm-8" style="font-style: italic" >
+			      <p class="form-control-static">Nguyễn Tường</p>
+			    </div>
 			</div>
-			<div class="form-group">
-			   	<label name="date"> Date of Birth: 20/22/1996</label>
-				<!--	<input type="text" class="form-control" name="date" placeholder="dd/mm/yy"> -->         
+			<div class="form-group row">
+			    <label class="control-label col-sm-4" for="gender">Gender:</label>
+			    <div class="col-sm-8" style="font-style: italic">
+			      <p class="form-control-static">Female</p>
+			    </div>
 			</div>
-			
-  			<div class="form-group">
-    			<label name="phone">Phone number: 0120000111</label>
-   				<!-- <input type="text" class="form-control" name="phone" placeholder="Input phone number"> -->
-  			</div>
-  			<div class="form-group">
-    			<label name="email">Email: vy12@gmail.com</label>
-   				<!-- <input type="text" class="form-control" name="email" placeholder="Input email address"> -->
-  			</div>
-			
+			<div class="form-group row">
+			    <label class="control-label col-sm-4" for="date">Date of Birth:</label>
+			    <div class="col-sm-8" style="font-style: italic">
+			      <p class="form-control-static">20/11/1996</p>
+			    </div>
+			</div>
+			<div class="form-group row">
+			    <label class="control-label col-sm-4" for="phone">Phone number:</label>
+			    <div class="col-sm-8" style="font-style: italic">
+			      <p class="form-control-static">0906 000 123</p>
+			    </div>
+			</div>
+			<div class="form-group row">
+			    <label class="control-label col-sm-4" for="date">Email:</label>
+			    <div class="col-sm-8" style="font-style: italic">
+			      <p class="form-control-static">vytuong1120@gmail.com</p>
+			    </div>
+			</div>
 	      	<div class="form-group row">
 	      		<div class="col-md-6">
-	      			<button class="btn btn-primary btn-block" type="submit" onclick="return validateForm()" >Edit</button>  
-	      		</div>
+	      			<a href="index_user.html" class="btn btn-primary btn-block">Back</a> 
+	      		</div>  
 	      		<div class="col-md-6">
-	      			<button class="btn btn-primary btn-block" type="cancel">Cancel</button>  
-	      		</div>      		
+	      			<a href="#" class="btn btn-primary btn-block">Edit</a> 
+	      		</div>    		
 	      	</div>   	 
 	    </form>
 	</div>
