@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div class="container wrapper">
-	    <form class="form-signup" name="update" method="post" action= "#">       
+	    <form class="form-signup" name="update" method="post" action= "index_user.html">       
 	      	<h2 class="text-center">Update information </h2> <br>
 	      	<div class="form-group">
     			<label name="fname">First name</label>
@@ -45,7 +45,7 @@
 	       
 	      	<div class="form-group row">
 	      		<div class="col-md-6">
-	      			<button class="btn btn-primary btn-block" type="submit" >Update</button>  
+	      			<button class="btn btn-primary btn-block" type="submit" onclick="return validateForm()" >Update</button>  
 	      		</div>
 	      		<div class="col-md-6">
 	      			<button class="btn btn-primary btn-block" type="cancel">Cancel</button>  
@@ -57,6 +57,62 @@
 	<script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
 	<script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
 	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
-	
+	<script type="text/javascript">
+		function validateForm() {
+			//Kiểm tra input nhập vào có lỗi ko ?
+			//first name
+			if ( document.register.fname.value=="")
+			{
+				alert("Vui lòng nhập First name");
+				document.register.fname.focus( );
+				return false;
+			}
+			// last name
+			if ( document.register.lname.value=="")
+			{
+				alert("Vui lòng nhập Last name");
+				document.register.lname.focus( );
+				return false;
+			}
+			//phone
+			var phone= document.register.phone.value;
+			if ( phone=="")
+			{
+				alert("Vui lòng nhập Phone number");
+				document.register.phone.focus( );
+				return false;
+			}
+			if (isNaN (phone)) {
+				alert("Điện thoại phải để ở định dạng số");
+				return false;
+			}
+			//email
+			var email= document.register.email.value;
+			var aCong= email.indexOf("@");
+			var dauCham = email.lastIndexOf(".");
+
+			if (email == "") {
+				alert("Vui lòng nhập Email");
+				document.register.email.focus( );
+				return false;
+			} else if ((aCong<1) || (dauCham<aCong+2) || (dauCham+2>email.length)) {
+				alert("Email bạn điền không chính xác");
+				document.register.email.focus( );
+				return false;
+			}
+		
+
+			//kiem tra password
+			if ( document.register.password.value=="")
+			{
+				alert("Vui lòng nhập password");
+				document.register.password.focus( );
+				return false;
+			}
+
+			// nếu đúng hết, trả về true
+			return true;
+		}
+	</script>
 </body>
 </html>
