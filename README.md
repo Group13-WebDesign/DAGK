@@ -1,7 +1,7 @@
-# ĐỒ ÁN PHÁT TRIỂN ỨNG DỤNG WEB 
+﻿# ĐỒ ÁN PHÁT TRIỂN ỨNG DỤNG WEB 
 # QUẢN LÝ BÁN MÁY ẢNH SỐ
 Thành viên
-* [x] **1312535** 
+* [x] **1312535** Phạm Mang Việt Thành
 * [x] **1412655** Lê Vy
 * [x] **1412657** Nguyễn Tường Vy
 
